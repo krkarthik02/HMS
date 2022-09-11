@@ -1,0 +1,93 @@
+body
+{
+   background-image: url(../img/background.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: #E7E7E7;
+   margin: 0;
+}
+.details{
+    width: auto;
+    float: left;
+    padding: 100px;
+ }
+.container
+{
+    text-align: right ;
+    font-family: sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 400;
+}
+
+.container h3
+{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    
+}
+
+.container ul
+{
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.container ul li
+{
+    padding: 40px;
+    width: 320px;
+    transition: .3s;
+}
+
+.container li:hover
+{
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+}
+
+.container li:hover span
+{
+    color: #63b7e6;
+}
+
+
+.container li:hover p
+{
+    color: #555;
+}
+
+.container li:hover h3
+{
+    color: #63b7e6;
+}
+
+.container li:hover h3:after
+{
+    width: 25px;
+}
+.container span.fa
+{
+    color: #a2a2a2;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    transition: .3s;
+    font-size: 3.8em;
+}
+.container h3
+{
+    color: #a2a2a2;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    transition: .3s;
+    font-family: sans-serif;
+}
